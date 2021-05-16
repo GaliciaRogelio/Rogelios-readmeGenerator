@@ -1,9 +1,9 @@
-// Packages needed for this application
+// requirements to link this page to inquirer and the generator page
 const fs = require("fs");
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// List of questions for user input
+// array of questions to be prompted in terminal in order to create the readme 
 const promptUser = [
     {   
         type:'input',
@@ -57,7 +57,7 @@ const promptUser = [
     {
         type: 'checkbox',
         name: 'license',
-        message: 'What kind of license should your project have?',
+        message: 'What kind of license[s] does your project have?',
         choices: [
             'GNU General Public', 
             'MIT',
@@ -67,7 +67,7 @@ const promptUser = [
     }, 
 ];
 
-// Writes README file
+// writes the file 
 function writeToFile(fileName, data) {
 
     fs.writeFile("./dist/"+fileName, data, function(err) {
@@ -79,7 +79,7 @@ function writeToFile(fileName, data) {
     
 }
 
-// Initializes app
+// initializes the application 
 function init() {
     inquirer.prompt(promptUser)
     .then(function(data) {

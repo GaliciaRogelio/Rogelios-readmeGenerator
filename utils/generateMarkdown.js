@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Returns a license badge based on which license is used
+// list of licenses and badges to be displayed in the readme 
 function licenseBadges(data) {
   const selectLicense = data.license[0];
   let thisBadge = " "
@@ -22,7 +22,7 @@ function licenseBadges(data) {
  return thisBadge;
 };
 
-// Creates the markdown for README
+// README generator 
 function generateMarkdown(data) {  
   return `# ${data.title}
   
