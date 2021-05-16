@@ -1,13 +1,13 @@
-# RunBuddy
+# Rogelios-readmeGenerator
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Description
-  this is a website designed for users to find personal trainers 
+  This is a README creator using Node directly from your terminal 
 
   # GitHub Links
-  Live Page: https://GaliciaRogelio.github.io/RunBuddy/
+  Live Page: https://galiciaRogelio.github.io/Rogelios-readmeGenerator/
   <br>
-  Repository: https://github.com/GaliciaRogelio/RunBuddy
+  Repository: https://github.com/galiciaRogelio/Rogelios-readmeGenerator
   
   # Table of Contents 
   * [Installation](#installation)
@@ -20,19 +20,19 @@
   # Installation
   Please install this before using the app:
   <br>
-  no installations are required for this project
+  this project requires npm install and npm install inquirer in terminal 
   
   # Usage
-  ​this app is created to help you find a personal trainer 
+  ​this app is used to create a README for your projects
  
   # License
   MIT
   
   # Contributing
-  ​Contributors: Rogelio and UCB coding bootcamp
+  ​Contributors: 
   
   # Steps
-  there are no specific steps for this app, just open the live website and youre set.
+  npm install inquirer <br> npm init 
   
   # Contact
   Got questions? contact me! : galiciar0513@gmail.com.
